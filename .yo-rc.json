@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.diviso.micro"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "microservice",
+    "baseName": "microtest",
+    "packageName": "com.diviso.micro",
+    "packageFolder": "com/diviso/micro",
+    "serverPort": "9096",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTAzYmRkMzJkNTQ0N2JlYjM0OWIzODBiMmQ2OWEwZjdkZjQ3NDM5NjQwMjY3ZjkwNDJhZmRlOTdjY2UwNjIyZDNiMzZiMThlYzFlMGNkNTQ5NGE3NTJlYzZiNTJjNWQxOGM3NzU5MTYwOTFiZmMzN2U3YzBmYzJhMDkyMTYyYjY=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
